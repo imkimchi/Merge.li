@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Merge.li
+    meta(name='viewport', content='width=device-width, initial-scale=1')  
+    link(rel='icon', href='/images/favicon/favicon.ico')
+    meta(property="fb:app_id" content="545351855662760")
+    meta(property="og:url" content="http://merge.li")
+    meta(property="og:type" content="article")
+    meta(property="og:title" content="Merge.li - URL compressor")
+    meta(property="og:description" content="Compress multiple links to a link. One Link to link them all.")
+    meta(property="og:image" content="http://merge.li/images/logo.png")
+    link(href="/stylesheets/style.css", rel="stylesheet")
+    link(href="/stylesheets/material.css", rel="stylesheet")
+    link(rel='canonical', href='https://dev.twitter.com/web/tweet-button')
+    link(href="/stylesheets/animate.css" rel="stylesheet")  
+    script(src='/javascripts/jquery-3.1.1.min.js')
+    script(src="/javascripts/jquery-ui.min.js")
+    script(src="/javascripts/arrive.js")
+    script(src="/javascripts/event.js")
+    script(src="/javascripts/animate.js")
+    
+  body
+    .IndexBody
+      .introduce
+        h1#logo MERGE.LI
+        span#intro One link to link them all
+      form
+        .urlinput
+          input.default(type="text" placeholder="")
+        .urlinput
+          input.default(type="text" placeholder="")
+          i.material-icons.add.md-36 add
+        button Submit
+    .IndexFooter
+      .footer-wrapper
+        .copyright.footSection
+          span.footText| © 2016 Merge.li
+        .feedback.footSection
+          a.footText(href="https://github.com/imkimchi/Merge.Li/issues")| Feedback
+          #fb-root
+    script.
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=545351855662760";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-86209512-1', 'auto');
+      ga('send', 'pageview');
+
+        
+    script(src="/javascripts/ajaxform.js")

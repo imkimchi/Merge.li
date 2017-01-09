@@ -1,0 +1,138 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,600,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,900';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2C3E50;
+}
+#first-section {
+  height: calc(100vh - 70px);
+  padding-top: 70px;
+  text-align: center;
+}
+
+#twice-section {
+  height: calc(100vh - 50px);
+  background-color: #34495E;
+  padding: 50px 15px 15px 0px;
+  text-align: center;
+}
+
+#third-section {
+  padding-top: 70px;
+  height: calc(100vh - 70px);
+  text-align: center;
+}
+
+#fourth-section {
+  background-color: #34495E;
+  height: calc(100vh - 70px);
+  padding-top: 70px;
+  text-align: center;
+
+}
+
+.section-wrapper {
+  text-align: center;
+  padding: 15px 50px 0 0;
+  margin: 0px 50px 10px;
+}
+
+#withboy {
+  width: 560px;
+  text-align: center;
+}
+
+.section {
+  display: inline-block;
+  width: calc(50% - 16px);
+  height: 380px;
+
+}
+
+.title {
+  font-size: 4rem;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 15px;
+}
+
+#logoHarambe {
+  margin-top: calc(100vh - 108%);
+  width: 100%;
+}
+
+.dd {
+  font-size: 4rem;
+  font-weight: 900;
+  display: block;
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+
+  line-height: 60px;
+}
+
+.dplus {
+  font-size: 4rem;
+  font-weight: 900;
+  display: inline-block;
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+.rip {
+
+    padding-bottom: 70px;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.soSad {
+  font-family: 'Roboto', 'sans-serif';
+  color: white;
+  display: block;
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.explain {
+  float: left;
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+  font-weight: 600;
+  opacity: .7;
+  color: white;
+  margin-top: 50px;
+}
+
+.header-title {
+    font-family: 'Lato', 'sans-serif';
+    color: white;
+    opacity: 0.8;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    font-size: 55px;
+    float: left;
+    display: inline-block;
+}
+/*
+iframe {
+  margin-top: calc(100vh - 100%);
+}
+*/
